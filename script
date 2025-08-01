@@ -1,6 +1,0 @@
-function scrollToProducts() {
-  document.getElementById('products').scrollIntoView({ behavior: 'smooth' });
-}
-function addToCart(product) {
-  alert(product + ' added to cart!');
-} 
