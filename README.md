@@ -8,7 +8,7 @@ This project is designed to showcase a **complete online store demo** for portfo
 ---
 
 ## Live Demo
-You can access the live front-end demo [here](https://github.com/PAUL-DANIEL-C/shopease-website)
+You can access the live front-end demo [here](https://paul-daniel-c.github.io/shopease-website/index.html)
 
 ---
 
