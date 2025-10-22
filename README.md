@@ -8,7 +8,7 @@ This project is designed to showcase a **complete online store demo** for portfo
 ---
 
 ## Live Demo
-You can access the live front-end demo [here](https://your-github-username.github.io/shopease/) *(replace with your GitHub Pages link)*.
+You can access the live front-end demo [here](https://github.com/PAUL-DANIEL-C/shopease-website)
 
 ---
 
@@ -37,15 +37,25 @@ You can access the live front-end demo [here](https://your-github-username.githu
 
 ## Project Structure
 shopease/
+
 │
+
 ├─ index.html # Home page
+
 ├─ products.html # Product listing page
+
 ├─ product.html # Individual product detail page
+
 ├─ cart.html # Shopping cart page
+
 ├─ about.html # About Us page
+
 ├─ contact.html # Contact page
+
 ├─ style.css # Global styles
+
 ├─ script.js # JavaScript functions for dynamic rendering and cart
+
 └─ images/ # Folder containing all product and hero images
 
 ---
@@ -57,7 +67,7 @@ shopease/
 
 ## Setup Instructions
 1. Clone the repository:  
-git clone https://github.com/your-github-username/shopease.git
+git clone https://github.com/PAUL-DANIEL-C/shopease-website
 Open index.html in your browser to run the project locally.
 
 Add or update products in script.js by editing the allProducts array.
@@ -78,7 +88,8 @@ Author
 
 C.PAUL DANIEL – Computer Science student | Front-End Developer
 Portfolio: https://paul-daniel-c.github.io/
-GitHub: https://github.com/your-github-username](https://github.com/PAUL-DANIEL-C/shopease-website
+
+GitHub: https://github.com/PAUL-DANIEL-C/shopease-website
 
 
 ---
