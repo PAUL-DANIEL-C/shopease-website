@@ -44,6 +44,6 @@ function loadCart() {
     container.appendChild(div);
   });
   const totalDiv = document.createElement('div');
-  totalDiv.innerHTML = `<strong>Total:</strong> $${total}`;
+  totalDiv.innerHTML = `<strong>Total:</strong> $${total.toFixed(2)}`;
   container.appendChild(totalDiv);
 }
