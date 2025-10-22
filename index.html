@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Modern Shopping Website</title>
+  <title>ShopEase - Home</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -11,60 +11,24 @@
     <nav class="navbar">
       <div class="logo">ShopEase</div>
       <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#products">Products</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html">Cart 🛒</a></li>
       </ul>
-      <div class="cart-icon">🛒</div>
     </nav>
   </header>
 
-  <section class="hero" id="home">
+  <section class="hero">
     <h1>Discover Your Style</h1>
     <p>Shop the latest fashion at unbeatable prices</p>
     <button onclick="scrollToProducts()">Shop Now</button>
   </section>
 
-  <section class="products" id="products">
+  <section class="products">
     <h2>Featured Products</h2>
-    <div class="product-list">
-      <div class="product-card">
-        <img src="image/tshirt.jpg" alt="Product 1" />
-        <h3>Classic T-Shirt</h3>
-        <p>$19.99</p>
-        <button onclick="addToCart('Classic T-Shirt')">Add to Cart</button>
-      </div>
-      <div class="product-card">
-        <img src="https://via.placeholder.com/200" alt="Product 2" />
-        <h3>Stylish Jacket</h3>
-        <p>$49.99</p>
-        <button onclick="addToCart('Stylish Jacket')">Add to Cart</button>
-      </div>
-      <div class="product-card">
-        <img src="image/shoe.png" alt="Product 3" />
-        <h3>Running Shoes</h3>
-        <p>$59.99</p>
-        <button onclick="addToCart('Running Shoes')">Add to Cart</button>
-      </div>
-    </div>
-  </section>
-
-  <section class="about" id="about">
-    <h2>About Us</h2>
-    <p>
-      ShopEase is your one-stop online fashion store offering premium quality clothes and accessories at affordable prices. We value style, comfort, and customer satisfaction.
-    </p>
-  </section>
-
-  <section class="contact" id="contact">
-    <h2>Contact Us</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
+    <div class="product-list" id="featured-products"></div>
   </section>
 
   <footer>
@@ -72,5 +36,13 @@
   </footer>
 
   <script src="script.js"></script>
+  <script>
+    const featured = [
+      { name: "Classic T-Shirt", price: 19.99, image: "images/tshirt.jpg" },
+      { name: "Stylish Jacket", price: 49.99, image: "images/jacket.jpg" },
+      { name: "Running Shoes", price: 59.99, image: "images/shoes.png" }
+    ];
+    renderProducts(featured);
+  </script>
 </body>
 </html>
