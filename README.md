@@ -92,4 +92,4 @@ Portfolio: https://paul-daniel-c.github.io/
 GitHub: https://github.com/PAUL-DANIEL-C/shopease-website
 
 
---- 
+---
